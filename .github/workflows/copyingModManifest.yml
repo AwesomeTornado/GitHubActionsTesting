@@ -17,7 +17,7 @@ jobs:
     - name: Checkout main
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.GH_ACTION }}
+        token: ${{ secrets.GH_ACTIONS }}
 
     - name: Set up Python
       uses: actions/setup-python@v4
