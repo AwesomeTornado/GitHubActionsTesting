@@ -1,4 +1,4 @@
-name: Generate Manifest
+name: Copying the manifest
 
 on:
   workflow_dispatch:
